@@ -14,6 +14,7 @@
 		F7E3F7D82C01F389002B3448 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7E3F7D72C01F389002B3448 /* Assets.xcassets */; };
 		F7E3F7DB2C01F389002B3448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7E3F7D92C01F389002B3448 /* LaunchScreen.storyboard */; };
 		F7E3F7EF2C02413D002B3448 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7EE2C02413D002B3448 /* CoreDataManager.swift */; };
+		F7E3F7F22C0243B1002B3448 /* DemoModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7F02C0243B1002B3448 /* DemoModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F7E3F7DA2C01F389002B3448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7E3F7DC2C01F389002B3448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7E3F7EE2C02413D002B3448 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		F7E3F7F12C0243B1002B3448 /* DemoModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F7E3F7ED2C024122002B3448 /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				F7E3F7F02C0243B1002B3448 /* DemoModel.xcdatamodeld */,
 				F7E3F7EE2C02413D002B3448 /* CoreDataManager.swift */,
 			);
 			path = Persistence;
@@ -177,6 +180,7 @@
 				F7E3F7CF2C01F386002B3448 /* AppDelegate.swift in Sources */,
 				F7E3F7EF2C02413D002B3448 /* CoreDataManager.swift in Sources */,
 				F7E3F7D12C01F386002B3448 /* SceneDelegate.swift in Sources */,
+				F7E3F7F22C0243B1002B3448 /* DemoModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7E3F7F02C0243B1002B3448 /* DemoModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7E3F7F12C0243B1002B3448 /* DemoModel.xcdatamodel */,
+			);
+			currentVersion = F7E3F7F12C0243B1002B3448 /* DemoModel.xcdatamodel */;
+			path = DemoModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F7E3F7C32C01F386002B3448 /* Project object */;
 }
