@@ -56,15 +56,39 @@
 		F7E3F7CD2C01F386002B3448 /* CoreData-Init */ = {
 			isa = PBXGroup;
 			children = (
-				F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */,
-				F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */,
-				F7E3F7D22C01F386002B3448 /* ViewController.swift */,
-				F7E3F7D42C01F386002B3448 /* Main.storyboard */,
-				F7E3F7D72C01F389002B3448 /* Assets.xcassets */,
-				F7E3F7D92C01F389002B3448 /* LaunchScreen.storyboard */,
-				F7E3F7DC2C01F389002B3448 /* Info.plist */,
+				F7E3F7E52C01F4D2002B3448 /* App */,
+				F7E3F7E32C01F4BE002B3448 /* Storyboards */,
+				F7E3F7E42C01F4CA002B3448 /* ViewControllers */,
 			);
 			path = "CoreData-Init";
+			sourceTree = "<group>";
+		};
+		F7E3F7E32C01F4BE002B3448 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7E3F7D42C01F386002B3448 /* Main.storyboard */,
+				F7E3F7D92C01F389002B3448 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7E3F7E42C01F4CA002B3448 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7E3F7D22C01F386002B3448 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7E3F7E52C01F4D2002B3448 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */,
+				F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */,
+				F7E3F7D72C01F389002B3448 /* Assets.xcassets */,
+				F7E3F7DC2C01F389002B3448 /* Info.plist */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
