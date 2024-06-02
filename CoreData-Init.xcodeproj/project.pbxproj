@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F718B4382C0CAC1A00BFF157 /* CoreDataManagerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */; };
+		F718B43B2C0CD71300BFF157 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718B4392C0CD71300BFF157 /* Item.swift */; };
 		F7E3F7CF2C01F386002B3448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */; };
 		F7E3F7D12C01F386002B3448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */; };
 		F7E3F7D32C01F386002B3448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7D22C01F386002B3448 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerB.swift; sourceTree = "<group>"; };
+		F718B4392C0CD71300BFF157 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F7E3F7CB2C01F386002B3448 /* CoreData-Init.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Init.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F718B43D2C0CD77300BFF157 /* ManagedObjects */ = {
+			isa = PBXGroup;
+			children = (
+				F718B4392C0CD71300BFF157 /* Item.swift */,
+			);
+			path = ManagedObjects;
+			sourceTree = "<group>";
+		};
 		F7E3F7C22C01F386002B3448 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 				F7E3F7F02C0243B1002B3448 /* DemoModel.xcdatamodeld */,
 				F7E3F7EE2C02413D002B3448 /* CoreDataManager.swift */,
 				F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */,
+				F718B43D2C0CD77300BFF157 /* ManagedObjects */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -185,6 +196,7 @@
 				F7E3F7EF2C02413D002B3448 /* CoreDataManager.swift in Sources */,
 				F7E3F7D12C01F386002B3448 /* SceneDelegate.swift in Sources */,
 				F7E3F7F22C0243B1002B3448 /* DemoModel.xcdatamodeld in Sources */,
+				F718B43B2C0CD71300BFF157 /* Item.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
