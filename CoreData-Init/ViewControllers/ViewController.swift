@@ -5,8 +5,9 @@ import CoreData
 
 class ViewController: UIViewController {
 
-	//for demo purpose: Better to use viewContext in ViewModels or Data Layer
-	private var viewContext:NSManagedObjectContext!
+	#warning("Better to use managed-object context in ViewModels, or in Data Layer.")
+	//following line is for demo purpose.
+	private var context:NSManagedObjectContext!
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -31,11 +32,11 @@ class ViewController: UIViewController {
 		 	
 		 */
 		let coredataManager = CoreDataManagerB()
-		self.viewContext = coredataManager.viewContext
+		self.context = coredataManager.viewContext
 	}
 	
 	private func printViewContext(){
-		guard let context = self.viewContext else{ return }
+		guard let context = self.context else{ return }
 		print(context)
 		print("Core Data - ViewContext created\nHappy Coding 🐝")
 		print(String(repeating: "---- ", count: 5))
