@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F718B4382C0CAC1A00BFF157 /* CoreDataManagerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */; };
 		F7E3F7CF2C01F386002B3448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */; };
 		F7E3F7D12C01F386002B3448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */; };
 		F7E3F7D32C01F386002B3448 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3F7D22C01F386002B3448 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManagerB.swift; sourceTree = "<group>"; };
 		F7E3F7CB2C01F386002B3448 /* CoreData-Init.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData-Init.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E3F7CE2C01F386002B3448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7E3F7D02C01F386002B3448 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				F7E3F7F02C0243B1002B3448 /* DemoModel.xcdatamodeld */,
 				F7E3F7EE2C02413D002B3448 /* CoreDataManager.swift */,
+				F718B4372C0CAC1A00BFF157 /* CoreDataManagerB.swift */,
 			);
 			path = Persistence;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7E3F7D32C01F386002B3448 /* ViewController.swift in Sources */,
+				F718B4382C0CAC1A00BFF157 /* CoreDataManagerB.swift in Sources */,
 				F7E3F7CF2C01F386002B3448 /* AppDelegate.swift in Sources */,
 				F7E3F7EF2C02413D002B3448 /* CoreDataManager.swift in Sources */,
 				F7E3F7D12C01F386002B3448 /* SceneDelegate.swift in Sources */,
